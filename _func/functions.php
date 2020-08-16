@@ -26,26 +26,6 @@ function render_page() {
 }
 
 function load_module() {
-    
-    $module = get_module_name();
-    if(empty($module)) {
-        $module = 'home';
-    } 
-    
-    $module_file = "pages/$module.php";
-    if(file_exists($module_file)) {
-        require_once("pages/$module.php");
-        //check_for_authentication_requirement();
-    } else {
-        //add_message('آدرس وارد شده، صحیح نیست.', 'error');
-        require_once("pages/home.php");
-    }
-    render_page();
-    
-    
-    
-    
-    /* new version - not tested here
     global $page;
     $page = get_module_name();
     $page_file = "pages/$page.php";
@@ -55,5 +35,4 @@ function load_module() {
     }
     require_once("pages/$page.php");
     render_page();
-    */ 
 }
