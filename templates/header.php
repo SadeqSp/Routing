@@ -16,7 +16,7 @@
     <meta name="keywords" content="...">
 	<meta name="description" content="...">
     
-    <!--<link rel="icon" href="_img/favicon.png" type="image/png" sizes="16x8">-->
+    <link rel="icon" href="_img/favicon.png" type="image/png" sizes="16x8">
  
 </head>
 <body>
