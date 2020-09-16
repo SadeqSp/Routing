@@ -2,7 +2,7 @@
 
 //session_start();
 
-define('SITE_URL', 'http://localhost/_base/routing/');
+define('SITE_URL', 'http://localhost/_routing/');
 
 define('SITE_PATH', __DIR__ . DIRECTORY_SEPARATOR);
 

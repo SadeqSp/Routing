@@ -2,7 +2,7 @@ Options All -Indexes
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /_base/routing/
+    RewriteBase /_routing/
     RewriteRule ^index\.php - [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
